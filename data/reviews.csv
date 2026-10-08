@@ -1,0 +1,8 @@
+product_id,review_id,review_text,rating,summary
+P001,R001,"Excellent sound and battery life. ANC works well for daily use.",4.8,"Great value for earbuds"
+P001,R002,"Comfortable fit and 42 hours battery life is excellent.",4.7,"Strong battery life"
+P002,R003,"Good noise cancellation and long-lasting battery.",4.5,"Good ANC performance"
+P003,R003A,"Best budget earbuds with ANC and clear voice calls.",4.4,"Budget-friendly choice"
+P004,R004,"Nice design but battery drops faster on some workouts.",4.1,"Okay for daily use"
+P005,R005,"Premium watch with reliable features and long warranty.",4.6,"Premium feel"
+P006,R006,"Good shirt quality but sizing runs slightly large.",4.0,"Decent fit"

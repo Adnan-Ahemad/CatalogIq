@@ -1,0 +1,8 @@
+product_id,product_name,category,subcategory,price,rating,battery_hours,anc,returnable,seller_verified,warranty_months,review_count
+P001,boAt Airdopes 141,Electronics,Wireless Earbuds,1499,4.3,42,true,true,true,6,8074
+P002,Noise Buds Pro,Electronics,Wireless Earbuds,1899,4.4,40,true,true,true,12,6500
+P003,OnePlus Wireless Earbuds 967,Electronics,Wireless Earbuds,1999,4.5,20,true,true,true,12,4200
+P004,Sony Watch 2,Electronics,Smartwatch,3499,4.2,,false,true,true,6,1800
+P005,Sony Watch 6,Electronics,Smartwatch,6999,4.6,,false,true,true,12,2100
+P006,Allen Solly Casual Shirt,Fashion,Apparel,1499,4.1,,false,true,true,,3200
+P007,Van Heusen Formal Shirt,Fashion,Apparel,2199,4.2,,false,true,true,,2800
