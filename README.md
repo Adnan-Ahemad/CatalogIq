@@ -1,4 +1,4 @@
-# CatalogueIQ
+# ProductLens
 
 RAG-powered product intelligence assistant for ShopSmart India.
 
@@ -7,7 +7,7 @@ RAG-powered product intelligence assistant for ShopSmart India.
 1. Open PowerShell and move to the project folder:
 
 ```powershell
-Set-Location "C:\Users\2531797\OneDrive - Cognizant\Desktop\capstone 2\catalogueiq"
+Set-Location "C:\Users\2531797\OneDrive - Cognizant\Desktop\capstone 2\ProductLens"
 ```
 
 2. Create and activate a virtual environment (example: `new_venv`):

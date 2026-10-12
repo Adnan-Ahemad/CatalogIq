@@ -1,5 +1,5 @@
 """
-CatalogueIQ Streamlit UI
+ProductLens Streamlit UI
 
 Run:
     streamlit run streamlit_app.py
@@ -66,14 +66,14 @@ def _render_retrieved_context(documents):
 
 def main():
     st.set_page_config(
-        page_title="CatalogueIQ",
-        page_icon="🛍️",
+        page_title="ProductLens",
+        page_icon="���️",
         layout="wide",
     )
 
     _init_state()
 
-    st.title("CatalogueIQ")
+    st.title("ProductLens")
     st.caption("RAG-powered Product Intelligence Assistant for ShopSmart India")
 
     with st.sidebar:
@@ -119,37 +119,3 @@ def main():
             with st.spinner("Retrieving and generating answer..."):
                 result = answer_query_with_trace(
                     query=user_query,
-                    vector_store=st.session_state.vector_store,
-                    memory=st.session_state.memory,
-                    persona_instruction=PERSONAS[st.session_state.persona],
-                )
-
-            answer = result["answer"]
-
-            st.session_state.chat_history.append(
-                {
-                    "question": user_query,
-                    "answer": answer,
-                    "retrieval_query": result["retrieval_query"],
-                    "documents": result["documents"],
-                }
-            )
-
-            with st.chat_message("assistant"):
-                st.write(answer)
-
-            st.rerun()
-
-    with right_col:
-        st.subheader("Evidence Panel")
-
-        if not st.session_state.chat_history:
-            st.info("Ask a question to view rewritten query and retrieved chunks.")
-        else:
-            latest = st.session_state.chat_history[-1]
-            st.markdown("### Retrieval Query")
-            st.write(latest["retrieval_query"])
-            _render_retrieved_context(latest["documents"])
-
-if __name__ == "__main__":
-    main()

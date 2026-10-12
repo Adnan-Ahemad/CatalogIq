@@ -13,7 +13,7 @@ VECTOR_STORE_DIR = BASE_DIR / "vector_store"
 # ChromaDB
 # ---------------------------------------------------------
 
-COLLECTION_NAME = "catalogueiq"
+COLLECTION_NAME = "productlens"
 
 # ---------------------------------------------------------
 # Embeddings

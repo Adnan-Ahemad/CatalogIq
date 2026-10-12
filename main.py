@@ -1,5 +1,5 @@
 """
-CatalogueIQ - Main Application
+ProductLens - Main Application
 
 Run:
 
@@ -43,7 +43,7 @@ TEST_QUERIES = [
 def main():
 
     print("=" * 70)
-    print("CATALOGUEIQ")
+    print("PRODUCTLENS")
     print("Product Intelligence Assistant")
     print("=" * 70)
 
